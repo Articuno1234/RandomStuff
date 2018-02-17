@@ -31,7 +31,7 @@ def main():
     cls()
     print("Plugins list:")
     for x in plugin_source.list_plugins():
-        print(f"Plugin {num}: {x}")
+        print("Plugin {}: {}".format(num, x))
         num += 1
     print("To exit, type \"exit\"")
     a = input("What plugin would you like to run? ")
