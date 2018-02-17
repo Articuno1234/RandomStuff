@@ -1,4 +1,4 @@
-from random import choice
+import random
 
 def run():
     # Make an array of responses.
@@ -24,7 +24,7 @@ def run():
     ask_again = "yes"
     while ask_again == "yes" or ask_again == "y":
         input("What is your question for the magic 8ball? ")
-        print(f"Magic 8ball says: {choice(responses)}")
+        print("Magic 8ball says: {}".format(random.choice(responses)))
         ask_again = input("Ask Again? ")
     if not ask_again == "yes" or ask_again == "y":
         pass
