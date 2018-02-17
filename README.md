@@ -1,5 +1,5 @@
 # RandomStuff
-My first Python App!
+This is [oskikiboy's](https://github.com/oskikiboy) first Python App!
 
 ## Dependencies!
 There is only two dependencies for this program: Python3 and pluginbase (a Python module)!
